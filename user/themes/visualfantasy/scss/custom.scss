@@ -3,6 +3,7 @@
  *  License - http://license.afnizar.com/ (MIT License)
  */
 $primary-color: #F9040A;
+$header-vert: 40%;
 
 body {
   margin-bottom: 50px;
@@ -84,7 +85,8 @@ iframe {
   width: 100%;
   height: 200px;
   padding-top: 80px;
-  background: url(../../saturn/img/head-bg.jpg) #F7F7F7 center 35%;
+  background: url(../../saturn/img/head-bg.jpg) #F7F7F7 center $header-vert;
+  background-size: cover;   
 }
 
 p.p-intro {
