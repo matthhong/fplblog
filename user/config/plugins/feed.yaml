@@ -1,5 +1,6 @@
-enabled: true
+enabled: 0
 limit: 10
 description: 'My Feed Description'
 lang: en-us
 length: 500
+_redirect: plugins

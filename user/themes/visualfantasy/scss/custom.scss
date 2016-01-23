@@ -2,6 +2,7 @@
  *  Saturn HTML Template by @flamekaizar - http://afnizar.com
  *  License - http://license.afnizar.com/ (MIT License)
  */
+$primary-color: #F9040A;
 
 body {
   margin-bottom: 50px;
@@ -35,7 +36,7 @@ a {
   nav a {
     text-decoration: none;
     &:hover {
-      color: #FF6C40;
+      color: $primary-color;
       -webkit-transition: all .25s ease-in-out;
       -moz-transition: all .2s ease-in-out;
       -ms-transition: all .2s ease-in-out;
@@ -43,6 +44,12 @@ a {
       transition: all .2s ease-in-out;
     }
   }
+}
+
+/* App */
+iframe {
+  width: 100%;
+  height: 1200px;
 }
 
 /* Created by @flamekaizar */
@@ -63,7 +70,7 @@ a {
 
 .top-nav .item-nav li {
   &.active a {
-    color: #FF6C40;
+    color: $primary-color;
   }
   a {
     font-family: "Arvo", sans-serif;
@@ -81,7 +88,7 @@ a {
 }
 
 p.p-intro {
-  color: #E85F37;
+  color: $primary-color;
   font-family: "PT Sans", sans-serif;
   font-size: 13px;
   letter-spacing: 2px;
@@ -89,7 +96,7 @@ p.p-intro {
   text-transform: uppercase;
   padding: 12px 25px 9px;
   background-color: #FFF;
-  border: 1px solid #DC5227;
+  border: 1px solid $primary-color;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -115,7 +122,7 @@ p.p-intro {
     position: absolute;
     border-style: solid;
     border-width: 11px 10px 11px 0;
-    border-color: transparent #DC5227;
+    border-color: transparent $primary-color;
     display: block;
     width: 0;
     z-index: 1;
@@ -128,7 +135,7 @@ img.img-intro {
   border-radius: 100px;
   width: 47px;
   background-color: #EF3A3A;
-  border: 1px solid #DC5227;
+  border: 1px solid $primary-color;
   -moz-box-shadow: inset 0.5px 0.9px 5px rgba(0, 0, 0, 0.05);
   -webkit-box-shadow: inset 0.5px 0.9px 5px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0.5px 0.9px 5px rgba(0, 0, 0, 0.05);
@@ -157,7 +164,7 @@ img.img-intro {
     position: relative;
   }
   a h1:hover {
-    color: #FF6C40;
+    color: $primary-color;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -ms-transition: all .2s ease-in-out;
@@ -197,11 +204,11 @@ img.img-intro {
 a.read-more {
   padding: 5px 10px;
   background-color: #FFF;
-  border: 1px solid #E85F37;
+  border: 1px solid $primary-color;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  color: #E85F37;
+  color: $primary-color;
   font-size: 13px;
   /* Created by @flamekaizar */
   font-weight: 700;
@@ -209,7 +216,7 @@ a.read-more {
   text-decoration: none;
   letter-spacing: 2px;
   &:hover {
-    background-color: #FF6C40;
+    background-color: $primary-color;
     color: #fff;
     -webkit-transition: all .25s ease-in-out;
     -moz-transition: all .25s ease-in-out;
@@ -267,15 +274,26 @@ footer {
 }
 
 .foot-cp {
-  padding-top: 40px;
+  // padding-top: 40px;
   a {
     color: #A5A5A5;
-    font-family: "Arvo", sans-serif;
-    font-size: 15px;
     font-weight: 400;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 3px;
+  }
+}
+
+.authortitle {
+  padding-top:40px;
+  margin-bottom:11px;
+}
+
+.authorname {
+  a {
+    font-family: "Arvo", sans-serif;
+    font-size: 15px;
+    font-style: italic;
   }
 }
 

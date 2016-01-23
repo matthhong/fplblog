@@ -9,7 +9,7 @@ languages:
   http_accept_language: false
   override_locale: false
 home:
-  alias: /blog
+  alias: /app
 pages:
   theme: visualfantasy
   order:

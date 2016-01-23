@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\Config',
-    'timestamp' => 1446511142,
-    'checksum' => 'dc73d3b3c49574a78a4d975525ab3e01',
+    'timestamp' => 1453582195,
+    'checksum' => '91f72130dc328fbb9e5cedc48950a6d6',
     'data' => [
         'streams' => [
             'schemes' => [
@@ -183,11 +183,12 @@ return [
                 ]
             ],
             'feed' => [
-                'enabled' => true,
+                'enabled' => 0,
                 'limit' => 10,
                 'description' => 'My Feed Description',
                 'lang' => 'en-us',
-                'length' => 500
+                'length' => 500,
+                '_redirect' => 'plugins'
             ],
             'form' => [
                 'enabled' => true
@@ -451,12 +452,8 @@ return [
         'site' => [
             'title' => 'Visual Fantasy',
             'author' => [
-                'name' => 'Matt Hong',
-                'email' => 'mhong19414@gmail.com',
-                'footer' => 'handcrafted by @flamekaizar',
-                'footer2' => 'Ported by TeamGrav',
-                'url' => 'http://afnizar.com',
-                'url2' => 'http://getgrav.org'
+                'name' => 'John Appleseed',
+                'email' => 'john@email.com'
             ],
             'taxonomies' => [
                 0 => 'category',
@@ -482,14 +479,21 @@ return [
             'blog' => [
                 'route' => '/blog'
             ],
-            'intro' => 'Hello, I’m Saturn. I’m proud to be a part of milky way',
-            'intro_avatar' => 'avatar.png',
-            'menu' => [
-                0 => [
-                    'text' => 'External link',
-                    'link' => '#'
-                ]
+            'author1' => [
+                'name' => 'Matt Hong',
+                'email' => 'mhong19414@gmail.com',
+                'title' => 'Publisher',
+                'url' => 'http://twitter.com/AllGoneMattHong'
             ],
+            'author2' => [
+                'name' => 'Ross Kulick',
+                'email' => 'mhong19414@gmail.com',
+                'title' => 'Editor-in-Chief',
+                'url' => '#'
+            ],
+            'intro' => 'You should always think it’s possible, but it’s not easy.',
+            'intro_avatar' => 'avatar.png',
+            'menu' => NULL,
             'social' => [
                 0 => [
                     'icon' => 'send',
@@ -527,7 +531,7 @@ return [
                 'override_locale' => false
             ],
             'home' => [
-                'alias' => '/blog'
+                'alias' => '/app'
             ],
             'pages' => [
                 'theme' => 'visualfantasy',

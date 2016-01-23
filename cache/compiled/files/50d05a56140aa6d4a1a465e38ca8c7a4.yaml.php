@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'user/config/system.yaml',
-    'modified' => 1446511142,
+    'modified' => 1453500990,
     'data' => [
         'absolute_urls' => false,
         'param_sep' => ':',
@@ -16,7 +16,7 @@ return [
             'override_locale' => false
         ],
         'home' => [
-            'alias' => '/blog'
+            'alias' => '/app'
         ],
         'pages' => [
             'theme' => 'visualfantasy',

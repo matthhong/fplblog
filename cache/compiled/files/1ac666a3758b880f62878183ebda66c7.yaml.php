@@ -2,16 +2,20 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'user/config/site.yaml',
-    'modified' => 1446316220,
+    'modified' => 1453582194,
     'data' => [
         'title' => 'Visual Fantasy',
-        'author' => [
+        'author1' => [
             'name' => 'Matt Hong',
             'email' => 'mhong19414@gmail.com',
-            'footer' => 'handcrafted by @flamekaizar',
-            'footer2' => 'Ported by TeamGrav',
-            'url' => 'http://afnizar.com',
-            'url2' => 'http://getgrav.org'
+            'title' => 'Publisher',
+            'url' => 'http://twitter.com/AllGoneMattHong'
+        ],
+        'author2' => [
+            'name' => 'Ross Kulick',
+            'email' => 'mhong19414@gmail.com',
+            'title' => 'Editor-in-Chief',
+            'url' => '#'
         ],
         'taxonomies' => [
             0 => 'category',
@@ -37,14 +41,9 @@ return [
         'blog' => [
             'route' => '/blog'
         ],
-        'intro' => 'Hello, I’m Saturn. I’m proud to be a part of milky way',
+        'intro' => 'You should always think it’s possible, but it’s not easy.',
         'intro_avatar' => 'avatar.png',
-        'menu' => [
-            0 => [
-                'text' => 'External link',
-                'link' => '#'
-            ]
-        ],
+        'menu' => NULL,
         'social' => [
             0 => [
                 'icon' => 'send',

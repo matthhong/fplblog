@@ -1,7 +1,7 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\Config',
-    'checksum' => '91f9c2bbe066333a8f07257c33eb25bc:debc9020c555e82d3b8ee3bc8419974f',
+    'checksum' => '25c66a85b8ee305d8f88629438bf6cdf:debc9020c555e82d3b8ee3bc8419974f',
     'files' => [
         'user/plugins' => [
             'plugins/admin' => [
@@ -1248,11 +1248,11 @@ return [
                 '@data-options' => '\\Grav\\Common\\Utils::dateFormats',
                 'options' => [
                     '' => 'Auto Guess or Enter Custom',
-                    'd-m-Y H:i' => 'd-m-Y H:i (e.g. 02-11-2015 23:43)',
-                    'Y-m-d H:i' => 'Y-m-d H:i (e.g. 2015-11-02 23:43)',
-                    'm/d/Y h:i a' => 'm/d/Y h:i (e.g. 11/02/2015 11:43 pm)',
-                    'H:i d-m-Y' => 'H:i d-m-Y (e.g. 23:43 02-11-2015)',
-                    'h:i a m/d/Y' => 'h:i a m/d/Y (e.g. 11:43 pm 11/02/2015)'
+                    'd-m-Y H:i' => 'd-m-Y H:i (e.g. 22-01-2016 19:31)',
+                    'Y-m-d H:i' => 'Y-m-d H:i (e.g. 2016-01-22 19:31)',
+                    'm/d/Y h:i a' => 'm/d/Y h:i (e.g. 01/22/2016 07:31 pm)',
+                    'H:i d-m-Y' => 'H:i d-m-Y (e.g. 19:31 22-01-2016)',
+                    'h:i a m/d/Y' => 'h:i a m/d/Y (e.g. 07:31 pm 01/22/2016)'
                 ],
                 'validate' => [
                     'type' => 'string'
